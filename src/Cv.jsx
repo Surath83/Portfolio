@@ -11,10 +11,7 @@ const Cv = () => {
   return (
     <div className={style.box}>
       <h2 className={style.h2}>Resume</h2>
-      <div className={style.line}>
-      <p className={style.p}>Check my resume</p>
-      <button className={style.submitbotton} onClick={handleDownload}>Download</button>
-      </div>
+      <img src="./asserts/Resume_SurathChowdhury.pfd" />
     </div>
   );
 };

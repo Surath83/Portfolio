@@ -3,7 +3,7 @@ import style from './Cv.module.css';
 const Cv = () => {
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '/src/assets/Resume_SurathChowdhury.pdf';
+    link.href = './src/assets/Resume_SurathChowdhury.pdf';
     link.download = 'Resume_SurathChowdhury.pdf';
     link.click();
   };

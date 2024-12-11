@@ -1,5 +1,5 @@
 .box{
-    height: 140px;
+    height: max-content;
     width: 562px;
     min-width: 562px;
     background: transparent;
@@ -17,21 +17,4 @@
 .h2{
     position: absolute;
 }
-.p{ 
-    font-size: large;
-    margin: 10px 40px 0px -25px;
-    padding: 5px;
-}
-.submitbotton{
-    background-color: #007BFF;
-    position: inherit;
-    color: white;
-    margin-top: 5px;
-    margin-left: 80px ;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
+
